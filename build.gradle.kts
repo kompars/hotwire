@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.maven.publish) apply false
 }
 
-group = "cz.kompars.hotwire"
+group = "org.kompars.hotwire"
 version = "0.0.0-SNAPSHOT"
 
 gitVersioning.apply {
