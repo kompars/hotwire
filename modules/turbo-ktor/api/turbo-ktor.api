@@ -1,0 +1,10 @@
+public final class org/kompars/hotwire/turbo/ktor/KtorExtensionsKt {
+	public static final fun getTurboFrame (Lio/ktor/server/request/ApplicationRequest;)Ljava/lang/String;
+	public static final fun getTurboStream (Lio/ktor/http/ContentType$Text;)Lio/ktor/http/ContentType;
+	public static final fun isTurboStream (Lio/ktor/server/request/ApplicationRequest;)Z
+	public static final fun respondTurboFrame (Lio/ktor/server/application/ApplicationCall;Ljava/lang/String;Lio/ktor/http/HttpStatusCode;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun respondTurboFrame$default (Lio/ktor/server/application/ApplicationCall;Ljava/lang/String;Lio/ktor/http/HttpStatusCode;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+	public static final fun respondTurboStream (Lio/ktor/server/application/ApplicationCall;Lio/ktor/http/HttpStatusCode;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun respondTurboStream$default (Lio/ktor/server/application/ApplicationCall;Lio/ktor/http/HttpStatusCode;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+}
+
